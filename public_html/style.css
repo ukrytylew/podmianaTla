@@ -1,0 +1,63 @@
+body { margin: 0; }
+div { min-height: 800px; }
+.bg { background: #fff; min-height: 400px; }
+.bg1 { background: url(images/bambo.jpg) fixed; }
+.bg2 { background: url(images/g.jpg) fixed; }
+.bg3 { background: url(http://subtlepatterns.com/patterns/linedpaper.png) fixed; }
+.menu{width: 100%;
+   float: left;
+   opacity: 0.4;
+   font-size:2em;
+   text-align: center;
+   background-color:white;
+   animation:nav 12s infinite;
+      -webkit-animation:nav 12s infinite;
+  
+}
+
+ul.menu{
+ position: fixed;
+}
+
+ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        display:block;
+        
+      }
+  ul li a {
+        text-decoration:none; 
+        display:block;
+        padding:10px 5px;
+        border:2px solid transparent;
+        border-top: 2px solid #3D3D3D;
+        color:black;
+        float:left;
+        transition-property:background-color;
+        transition-duration:4s;
+      }
+      
+  ul li a:hover{
+          color:#000; 
+          border:2px solid #3D3D3D;
+          border-top-color:#FFF;
+          border-bottom-left-radius:10px;
+          border-bottom-right-radius: 24px;
+          border-top:none;
+          background-color:greenyellow;      
+      }
+   @keyframes nav {
+          0%{background-color:#99FFFF}
+          30%{background-color:#FFFF99}
+          60%{background-color:#CCFFCC}
+          100%{backgroung-color:#99FFFF}
+      } 
+  
+@keyframe animacja{
+  0%{background-color:red;}
+  50%{background-color:white;}
+  100%{background-color:blue}
+    
+}
+   
