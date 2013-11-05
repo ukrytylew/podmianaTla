@@ -5,9 +5,15 @@ and open the template in the editor.
 <!DOCTYPE html>
 <html>
     <head>
+        
          <link href="style.css" rel="stylesheet" media="screen">
-        <title></title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.barousel.js"></script> 
+        	
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
+
     </head>
     <body>
   
@@ -20,11 +26,43 @@ and open the template in the editor.
                         <li><a href="#">Meduzy</a></li>
                         <li><a href="#">Za duże bluzy..</a></li>
                      
-       </ul>
+       </ul>   
+      
+           <div id="any_id" class="barousel">
+    <div class="barousel_image">
+        <!-- image 1 -->
+        <img src="images/g1.jpg" alt="" class="default" />
+        <!-- image 2 -->
+        <img src="images/g2.jpg" alt="" />
+        <!-- image xx -->
+        <img src="images/g3.jpg" alt="" />
+    </div>
+    <div class="barousel_content">
+        <!-- content 1 -->
+        <div class="default">
+            [any html content]
+        </div>
+        <!-- content 2 -->
+        <div>
+            [any html content]
+        </div>
+        <!-- content xx -->
+        <div>
+            [any html content]
+        </div>
+    </div>
+    <div class="barousel_nav">
+    </div>
+</div>
+           
+           
        </div>
 <div class="bg"></div>
 <div class="bg2"></div>
 <div class="bg"></div>
 <div class="bg3"></div>
+
+<script>$('#any_id').barousel();</script>
+
     </body>
 </html>
