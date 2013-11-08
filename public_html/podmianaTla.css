@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+div {
+    min-height: 800px;
+}
+.bg { 
+    background: gray; min-height: 400px; 
+}
+.bg1 {
+    background: url(images/g3.jpg) fixed;
+}
+.bg2 {
+    background: url(images/g.jpg) fixed; 
+}
+.bg3 {
+    background: url(http://subtlepatterns.com/patterns/linedpaper.png) fixed;
+}
