@@ -1,10 +1,23 @@
-body { margin: 0; }
-div { min-height: 800px; }
-.bg { background: gray; min-height: 400px; }
-.bg1 { background: url(images/g3.jpg) fixed; }
-.bg2 { background: url(images/g.jpg) fixed; }
-.bg3 { background: url(http://subtlepatterns.com/patterns/linedpaper.png) fixed; }
-.menu{width: 100%;
+body {
+    margin: 0;
+}
+div {
+    min-height: 800px;
+}
+.bg { 
+    background: gray; min-height: 400px; 
+}
+.bg1 {
+    background: url(images/g3.jpg) fixed;
+}
+.bg2 {
+    background: url(images/g.jpg) fixed; 
+}
+.bg3 {
+    background: url(http://subtlepatterns.com/patterns/linedpaper.png) fixed;
+}
+.menu{
+    width: 100%;
    float: left;
    opacity: 0.4;
    font-size:2em;
@@ -14,12 +27,46 @@ div { min-height: 800px; }
       -webkit-animation:nav 12s infinite;
   
 }
-
-ul.menu{
- position: fixed;
+ .box1{
+    margin: 100px;
+    padding: 30px;
+    border: 8px dotted brown;
+    position:absolute;
 }
 
+.box2{
+    
+}
+.fox{
+    color:black;
+    margin-left:690px;
+    margin-top: 130px;
+    background-color: white;
+    opacity: 0.6;
+}
+.imbox1{
+    opacity:0.9;
+    width:40%;
+    height: 60%;
+    border: 4px outset black;
+    position: absolute;
+    margin-left:690px;
+    margin-top: 130px;
+    background: url('http://cdn.pastemagazine.com/www/articles/Passenger%20All%20the%20little%20lights.png?1350836261');
+}
+.imbox2{
+    opacity:0.9;
+    width:40%;
+    height: 60%;
+    border: 4px outset black;
+    border-radius: 60px;
+    position: absolute;
+     margin: 40px;
+    padding: 30px;
+    background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Vegetable_beef_barley_soup.jpg/800px-Vegetable_beef_barley_soup.jpg');
+}
 ul {
+        position: fixed;    
         list-style-type:none;
         margin:0;
         padding:0;
@@ -50,6 +97,9 @@ ul {
           font-size: 1.2em;
           border-left: 0;
       }
+      
+      
+      
    @keyframes nav {
           0%{background-color:#99FFFF}
           30%{background-color:#FFFF99}
@@ -65,21 +115,3 @@ ul {
 }
    
 
-#carousel {
-        width: 480px;
-        overflow:hidden;
-    }
-
-    #carousel ul {
-        width: 1920px;
-        padding: 0;
-        margin: 0;
-    }
-
-    #carousel ul li {
-        width:480px;
-        text-align: center;
-        height: 280px;
-        list-style: none;
-        float:  left;
-    }
