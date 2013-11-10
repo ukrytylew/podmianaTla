@@ -14,27 +14,41 @@ div {
     background: url(images/g.jpg) fixed; 
 }
 .bg3 {
-    background: url(http://subtlepatterns.com/patterns/linedpaper.png) fixed;
+    background: url(images/g5.jpg) fixed;
+}
+
+.bg4 {
+    background: url(images/g4.jpg) fixed;
 }
 .menu{
-    width: 100%;
+   width: 100%;
    float: left;
    opacity: 0.4;
    font-size:2em;
    text-align: center;
    background-color:white;
    animation:nav 12s infinite;
-      -webkit-animation:nav 12s infinite;
+   -webkit-animation:nav 12s infinite;
+   z-index: 999;
   
 }
  .box1{
-    margin: 100px;
+    margin: 60px;
     padding: 30px;
     border: 8px dotted brown;
     position:absolute;
+    
 }
 
 .box2{
+    
+}
+.box3{
+    margin: 30px;
+    margin-top: 80px;
+    padding: 30px;
+    border: 8px dotted brown;
+    position:absolute;
     
 }
 .fox{
@@ -43,9 +57,15 @@ div {
     margin-top: 130px;
     background-color: white;
     opacity: 0.6;
+ 
+}
+.fox1{
+    color:black;
+    background-color: #ffff99;
+    opacity: 0.6;
 }
 .imbox1{
-    opacity:0.9;
+    
     width:40%;
     height: 60%;
     border: 4px outset black;
@@ -55,15 +75,24 @@ div {
     background: url('http://cdn.pastemagazine.com/www/articles/Passenger%20All%20the%20little%20lights.png?1350836261');
 }
 .imbox2{
-    opacity:0.9;
     width:40%;
     height: 60%;
     border: 4px outset black;
     border-radius: 60px;
     position: absolute;
      margin: 40px;
+     margin-top: 90px;
     padding: 30px;
-    background: url('http://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Vegetable_beef_barley_soup.jpg/800px-Vegetable_beef_barley_soup.jpg');
+    background: url('images/olej.jpg');
+}
+.imbox3{
+    width:20%;
+    height: 50%;
+    border: 4px outset black;
+    position: absolute;
+    margin-left:840px;
+    margin-top: 130px;
+    background: url('images/i3.jpg') ;
 }
 ul {
         position: fixed;    
