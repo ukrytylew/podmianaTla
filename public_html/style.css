@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
-div {
+.divv {
     min-height: 800px;
 }
 .bg { 
@@ -33,7 +33,9 @@ div {
   
 }
  .box1{
-    margin: 60px;
+    margin: 120px;
+    margin-left: 600px;
+    margin-top: 40px;
     padding: 30px;
     border: 8px dotted brown;
     position:absolute;
@@ -41,7 +43,12 @@ div {
 }
 
 .box2{
-    
+      margin: 120px;
+    margin-left: 750px;
+    margin-top: 130px;
+    padding: 30px;
+    border: 8px dotted brown;
+    position:absolute;
 }
 .box3{
     margin: 30px;
@@ -53,10 +60,9 @@ div {
 }
 .fox{
     color:black;
-    margin-left:690px;
-    margin-top: 130px;
     background-color: white;
     opacity: 0.6;
+    border:6px dotted red;
  
 }
 .fox1{
@@ -94,8 +100,11 @@ div {
     margin-top: 130px;
     background: url('images/i3.jpg') ;
 }
+.kox{
+    position: fixed;
+   }
 ul {
-        position: fixed;    
+        /*position: fixed;*/
         list-style-type:none;
         margin:0;
         padding:0;
@@ -103,6 +112,7 @@ ul {
         
       }
   ul li a {
+        
         text-decoration:none; 
         display:block;
         padding:10px 5px;
