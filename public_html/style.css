@@ -69,6 +69,7 @@ body {
     color:black;
     background-color: #ffff99;
     opacity: 0.6;
+    border-radius: 40px;
 }
 .imbox1{
     
@@ -103,6 +104,7 @@ body {
 .kox{
     position: fixed;
    }
+   
 ul {
         /*position: fixed;*/
         list-style-type:none;
@@ -137,7 +139,7 @@ ul {
           border-left: 0;
       }
       
-      
+   
       
    @keyframes nav {
           0%{background-color:#99FFFF}
