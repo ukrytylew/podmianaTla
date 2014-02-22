@@ -1,10 +1,9 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
+
 <!DOCTYPE html>
 <html>
     <head>
+         <title>Kosmetyki z Ameryki</title>
+
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet" media="screen">
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -13,15 +12,14 @@ and open the template in the editor.
         <link rel="stylesheet" href="assets/jquery.pointpoint/jquery.pointpoint.css" />
     </head>
     <body>
-        <title>Kosmetyki z Ameryki</title>
-
+       
        <div class="divv bg1 glowna">
             
-        <ul class="kox menu">
-                        <li><a href="#.glowna">zupa</a></li>
-                        <li> <a href="#.olej">Olej z nasion bawełny</a> </li>
-                        <li><a href="#.olejek|4000">Olejek Do Kąpieli</a></li>
-                        <li><a href="#.kontakt">Kontakt</a></li>
+        <ul class="kox menu naw">
+                        <li class="naw"><a class="naw" href="#.glowna">zupa</a></li>
+                        <li class="naw"> <a class="naw" href="#.olej">Olej z nasion bawełny</a> </li>
+                        <li class="naw"><a class="naw" href="#.olejek|4000">Olejek Do Kąpieli</a></li>
+                        <li class="naw"><a class="naw" href="#.kontakt">Kontakt</a></li>
         </ul>
             
             
@@ -122,15 +120,15 @@ W łacinie niektóre z często występujących w językach nowożytnych liter u�
 
            
           
-       </div>
-<div class="divv bg"></div>
+      
+<div class="divv bg">
 <div class="divv bg2 olej">
     <div class="container">
         <div class="row">
        <div class="col-md-6">
            
        </div>
-           <br/>
+           <br/><br/><br/><br/>
            <div class="col-md-offset-1 col-md-5 fox">
            Naturalny 100% kosmetyczny, rafinowany olej z nasion bawełny.<br/>
           Bogaty w NNKT i witaminę E. Działa nawilżająco, regenerująco,<br/>
@@ -145,43 +143,43 @@ Nasz organizm nie produkuje NNKT, dlatego też musimy je regularnie dostarczać 
 z zewnątrz. NNKT charakteryzują się korzystnym oddziaływaniem na skórę,<br/>
 dobrze się wchłania oraz ma zdolność eliminowania wolnych rodników.<br/>
 
-<div id="buttonContainer">
-			
 
-       </div>
+    </div>
+           </div>
     </div>
     </div>
-    
-  
-                  
-         
-               
-    
-    
-</div>
+    </div>
 
 <div class="divv bg"></div>
 
 <div class="divv bg3 olejek">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 fox">
-                Naturalny Rozgrzewający Olejek do Kąpieli w wannie lub pod prysznicem rozgrzewa zmysły i pielęgnuje skórę ciała.
+        <br/><br/><br/><br/> 
+            <div class="col-md-4">
+           
+               <button type="button" data-loading-text="Loading..." class="btn btn-primary">
+  Loading state
+</button>
 
-Ekologiczne, najwyższej jakości, tłoczone na zimno oleje roślinne oraz olejki eteryczne (cynamon, imbir, goździk, szałwia, pomarańcza) i naturalna witamina E działają wszechstronnie na skórę: nawilżają, ujędrniają i wygładzają skórę, łagodzą podrażnienia.
-
-Po kąpieli z dodatkiem naszego olejku, nie musisz w inny sposób nawilżać ciała.
-
-Kąpiel z dodatkiem olejku łagodzi zmęczenie i stres, poprawia samopoczucie. 
-
+            
             </div>
-            <div class="col-md-4 col-md-offset-4">
-                <img src="images/i3.jpg" class="img-rounded">
+            <div class="col-md-9">
+            <!--<a href="#" class="thumbnail">
+              <img style="width: 260px; height: 180px;" src="images/sarna.jpg">
+            dobrze się wchłania oraz ma zdolność eliminowania wolnych rodników.<br/>
+
+               </a>
+            -->
             </div>
-        </div>
+        
+         
     </div>
 </div>
-<div class="divv bg"></div>
+
+
+<div class="divv bg">
+    
+</div>
 <div class="divv bg4 kontakt">
     
     
@@ -189,29 +187,29 @@ Kąpiel z dodatkiem olejku łagodzi zmęczenie i stres, poprawia samopoczucie.
 </div>
 <div class="fox1">
 <footer>
-        <a href="#" class="redButton" id="push">góra!</a>
+        
     </footer>
 </div>
 
 
     <script type="text/javascript" src="jquery.min.js"></script>
-    <!--<script type="text/javascript" src="jquery.barousel.js"></script>--> 
     <script type="text/javascript" src="jquery.arbitrary-anchor.js"></script>	
     <script>window.jQuery || document.write('<script src="jquery.min.js"><\/script>')</script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-    <script src="assets/jquery.pointpoint/transform.js"></script>
-    <script src="assets/jquery.pointpoint/jquery.pointpoint.js"></script>
+    <!--<script src="assets/jquery.pointpoint/transform.js"></script>-->
+   <!-- <script src="assets/jquery.pointpoint/jquery.pointpoint.js"></script>-->
     <script>
-$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-  e.target // activated tab
-  e.relatedTarget // previous tab
-})
+//$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+ // e.target // activated tab
+  //e.relatedTarget // previous tab
+//})
 $('.carousel').carousel({
   interval: 2000
-})
+//})
+
+//$('#element').tooltip('show')
 
 
-
-</script>
-    </body>
+    </script>
+</body>
 </html>
